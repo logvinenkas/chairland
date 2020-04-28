@@ -1,1 +1,1 @@
-# Practice project only for me 
+# Practice project only for me
