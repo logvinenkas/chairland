@@ -1,2 +1,1 @@
-# chairland
-# test
+# Practice project
