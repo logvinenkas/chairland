@@ -1,0 +1,663 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    padding-top: 63px;
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.slider {
+    height: 800px;
+    background-image: url(img/slider-img.png);
+    position: relative;
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+
+.menu-link {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 10px 13px;
+}
+
+.menu-link:hover {
+    color: #212121;
+}
+
+.menu-link-active {
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+
+.slider-text {
+    margin-top: 283px;
+}
+
+.slider-trending {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.slider-h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0.1px;
+}
+
+.slider-content {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    width: 458px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.button {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    width: 212px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    display: inline-block;
+    letter-spacing: 3.6px;
+}
+
+.pagination {
+    position: absolute;
+    width: 1170px;
+    bottom: 19px;
+    text-align: center;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #c7c7c7;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.circle:hover {
+    background-color: #212121;
+}
+
+.circle-active {
+    width: 40px;
+    height: 40px;
+    background-color: #212121;
+    margin-bottom: 0;
+}
+
+/*SECOND PAGE*/
+
+.second-page {
+    height: 610px;
+}
+
+.second-page-header {
+    margin-top: 138px;
+}
+
+
+.second-page-menu-link {
+    list-style-type: none;
+    float: left;
+}
+
+.second-page-menu-link a {
+    font-size: 36px;
+    font-weight: 700;
+    color: #898989;
+    border-bottom: 2px solid #898989;
+    padding-bottom: 13px;
+    padding-left: 9px;
+    padding-right: 15zpx;
+}
+
+.second-page-menu-link-active a {
+    color: #212121;
+    border-bottom: 4px solid #212121;
+    padding-bottom: 11px;
+}
+
+.second-page-menu-link:hover a {
+    color: #212121;
+    border-bottom: 4px solid #212121;
+    padding-bottom: 11px;
+}
+
+.explore-all-link {
+    font-size: 18px;
+    font-weight: 700;
+    color: #212121;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.explore-all-link:hover {
+    padding-bottom: 3px;
+    border-bottom: 3px solid #212121;
+}
+
+.explore-all {
+    float: right;
+    line-height: 3;
+}
+
+/* Каталог товаров второго блока */
+
+.second-page-gallery {
+    margin-top: 80px;
+}
+
+.secpage-catalog-list li {
+    list-style-type: none;
+    float: left;
+}
+
+.secpage-catalog-product {
+    position: relative;
+    display: table;
+}
+
+.hoverprod {
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    top: 0;
+    text-align: center;
+    opacity: 0;
+    z-index: 100;
+
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.hoverprod > .secpage-button {
+    margin-top: 50px;
+}
+
+.hoverprod:hover {
+    opacity: 1;
+    outline: 1px solid #a1a1a2;
+}
+
+.secpage-catalog-product:hover .secpage-imgprod {
+    opacity: 0.1;
+}
+
+.secpage-button {
+    color: #212121;
+    display: inline-block;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 50%;
+    background-color: #ffffff;
+    width: 48px;
+    height: 48px;
+}
+
+.secpage-button img {
+    vertical-align: -100%;
+}
+
+.secpage-catalog-product {
+    padding-right: 30px;
+}
+
+.secpage-catalog-product:last-child {
+    padding-right: 0px;
+}
+
+.secpage-desc {
+    padding: 15px 0px;
+    font-size: 22px;
+}
+
+.secpage-text {
+    font-size: 14px;
+    font-weight: 300;
+    color: #6c6c6c;
+}
+
+/* Третья страница сайта */
+.third-page {
+    height: 683px;
+    display: inline-flex;
+    width: 100%;
+}
+
+.third-page-block {
+    width: 50%;
+    padding-left: 50px;
+}
+
+.third-page-block-left {
+    background-color: crimson;
+    background-image: url(img/promo-img1.png);
+}
+
+.third-page-block-left:hover {
+    background-blend-mode: lighten;
+}
+
+.third-page-block-right {
+    background-color: crimson;
+    background-image: url(img/promo-img.png);
+}
+
+.third-page-block-right:hover {
+    background-blend-mode: lighten;
+}
+
+.third-page-trending {
+    padding-top: 35%;
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.third-page-h2 {
+    padding: 15px 0;
+    font-size: 36px;
+}
+
+.third-page-content {
+    width: 400px;
+    padding-bottom: 30px;
+}
+
+/* Четвертый блок */
+
+.fourth-page {
+    margin-top: 138px;
+    height: 1109px;
+}
+
+.trending-products {
+    float: left;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.fourth-page-catalog {
+    margin-top: 80px;
+}
+
+.fourth-page-catalog-link:nth-child(2) {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.fourth-page-catalog-line {
+    padding-bottom: 25px;
+}
+
+.fourth-page-product:hover {
+    opacity: 0.5;
+}
+
+.fifth-page {
+    height: 800px;
+    background-image: url(img/slider.png);
+    position: relative;
+}
+
+.fifth-page-slider-trending {
+    padding-top: 290px;
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.fifth-page-slider-h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0.1px;
+}
+
+.fifth-page-slider-content {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    width: 458px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.fifth-page-pagination {
+    position: absolute;
+    width: 1170px;
+    bottom: 19px;
+    text-align: center;
+}
+
+
+/* Шестая страница большой квадрат и рядом четыре слева*/
+
+.sixth-page {
+    height: 810px;
+}
+
+.sixth-page-line {
+    padding-top: 120px;
+}
+.sixth-page-main-product {
+    float: left;
+    padding-right: 27px;
+    position: relative;
+}
+
+.sixth-page-block-text {
+    width: 340px;
+    position: absolute;
+    top: 30%;
+    padding-left: 30px;
+}
+
+.sixth-page-trending {
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.sixth-page-h2 {
+    padding: 15px 0;
+    color: #212121;
+    font-size: 36px;
+}
+
+.sixth-page-content {
+    padding-bottom: 30px;
+    color: #868686;
+}
+
+.sixth-page-other-products-link:nth-child(2n) {
+    padding-right: 29px;
+    padding-bottom: 26px;
+
+}
+
+.sixth-page-other-products-link {
+    float: right;
+
+}
+
+/*Седьмая страница - ссылки на сторы с приложухами */
+
+.seventh-page {
+    height: 516px;
+    background-image: url(img/back-img.png);
+}
+
+.seventh-page-text {
+    padding-top: 130px;
+    width: 500px;
+}
+
+.mobileapp {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.todo-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 62px;
+    font-weight: 100;
+}
+
+.seventh-page-desc {
+    color: #6c6c6c;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.mobileapp-stores {
+    padding-top: 30px;
+    display: inline-flex;
+}
+
+.apple {
+    padding-right: 10px;
+}
+
+/* Наконец то подвал */
+
+.footer {
+    height: 384px;
+}
+
+.footergray {
+    background-color: #f7f7f7;
+}
+
+.footer-main {
+    padding-top: 120px;
+}
+
+.footer-header {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contact-us {
+    float: left;
+    padding-right: 80px;
+}
+
+.contact-address {
+    padding-top: 25px;
+}
+
+.contacts-phone {
+    padding-top: 35px;
+}
+
+.contacts-text {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.useful-info {
+    float: left;
+    width: 500px;
+    padding-right: 10px;
+}
+
+.usefull-info-column {
+
+    padding-top: 25px;
+    display: inline-grid;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-right: 40px;
+    float: left;
+}
+
+.usefull-info-column a {
+    color: #212121;
+    padding-bottom: 10px;
+}
+
+.usefull-info-column a:hover {
+    color: #868686;
+}
+
+.stay-in-touch-desc {
+    padding-top: 25px;
+    padding-bottom: 30px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #212121;
+}
+
+.mail-form {
+    position:relative;
+}
+.mailus {
+    width: 310px;
+    padding: 20px 20px;
+    border: 1px solid #d9dee1;
+    vertical-align: middle;
+}
+
+.mailus-submit {
+    width: 18px;
+    height: 18px;
+    border: none;
+    background: url(img/mailimg.png) no-repeat 50% 50%;
+    position: absolute;
+    top: 35%;
+    left: 97%
+}
+
+.credits {
+    padding-top: 50px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #6c6c6c;
+    float: left;
+}
+
+.credits-right {
+    float: right;
+}
+
+.footer-advanced {
+    position: relative;
+}
+
+.socialmedia {
+    position: absolute;
+    width: 1170px;
+    bottom: -75px;
+    text-align: center;
+}
+
+
+/* Страница контактов */
+.contact-page {
+    height: 923px;
+}
+
+.contacts-page-header {
+    background-color: #f5f5f5;
+    height: 297px;
+    padding-top: 63px;
+}
+
+.contacts-page-h2 {
+    padding-top: 160px;
+    font-size: 62px;
+    font-weight: 100;
+
+}
+
+.contacts-page-fullinfo {
+    margin-top: 70px;
+    width: 370px;
+    height: 370px;
+    border: 1px solid #a6a6a6;
+    text-align: center;
+    float: right;
+}
+
+.contacts-page-fullinfo:nth-child(2) {
+    margin-left: 27px;
+    margin-right: 27px;
+}
+
+.location-icon {
+    padding-top: 50px;
+}
+
+.contacts-page-fullinfo-header {
+    padding: 25px 0;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contacts-page-fullinfo-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: #6c6c6c;
+}
+
+.contacts-page-fullinfo-value {
+    font-size: 14px;
+    font-weight: 700;
+    color: #212121;
+    padding-bottom: 14px;
+}
+
+.contacts-page-fullinfo-address-value {
+
+    font-size: 14px;
+    font-weight: 300;
+    color: #6c6c6c;
+}
