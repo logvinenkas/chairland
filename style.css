@@ -804,3 +804,9 @@ a {
 .related-prods {
     margin: 120px 0;
 }
+
+/* Страница продукт (рейндж) */
+
+.product-range-page {
+    margin: 10px 0;
+}
